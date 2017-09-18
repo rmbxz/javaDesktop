@@ -1,4 +1,4 @@
-  <!-- =================== default => start from dist ===================== -->
+   <!-- =================== default => start from dist ===================== -->
   <project name="java app 2" default="genJar" basedir=".">
   <description> java desktop application 2 </description>
   <!-- =================== Initialize Property Values ===================== -->
