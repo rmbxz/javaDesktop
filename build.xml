@@ -34,7 +34,7 @@
 	  </classpath>
       </javac>
   </target>
-<!-- =================== APP: Generate Jar file ================= -->
+<!-- =================== APP: Generate Jar file with main-class  ================= -->
   <target name="genJar"   depends="compileApp">
       <!-- Put everything in ${build} into the ${app.name}.jar file  -->
       <jar jarfile="${dist.dir}/${app.name}.jar" basedir="${build.dir}">
