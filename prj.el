@@ -29,6 +29,7 @@
 '(jdee-compile-option-directory "./build") ;; must be one classes, this is for compiler C-c C-v C-c, not for flymake , the flymake destination is (jdee-ecj-command-line-args -d [here], also it is generated classes by c-c c-v c-b by ant
 '(jdee-ecj-command-line-args( quote ("-g" "-d" "/home/jdee_workspace/app2/build/" "-source"   "1.7"  "-target"  "1.7"  "-warn:-serial")))  ;; this is for flymake , it is already contains -Xemacs  -noExit to hook ecj.jar  into flymake, see  /root/.emacs.d/elpa/jdee-20160728.1152/jdee-ecj-flymake.el 
 ;; all jars in the system here  /usr/share/java/
+;; if i add src.zip without zip, means extract it, then i can search inside that files by c-c c-v c-f
 '(jdee-sourcepath (quote               ("./src"   "../sourcePathx/sources/src_jdk_1.7.zip" ))) ;;java for current package  and  external packages 
 '(jdee-compile-option-classpath (quote ("./src" ))) ;; java of current package, then  [[[classes ]]] of  external packages 
 '(jdee-run-option-classpath (quote     ("./build" ))) ;; override global-classpath , must be  classes for all sources 
