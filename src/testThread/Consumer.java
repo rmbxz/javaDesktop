@@ -1,4 +1,5 @@
-package scjpThread;
+package testThread; // Generated package name
+
 
 /**
  * Describe class Consumer here.
@@ -21,7 +22,7 @@ public class Consumer extends Thread {
     public  Consumer(DataC dataC,String name) {
 	super(name);
 	this.dataC=dataC;
-     }
+    }
 
     /**
      * Describe <code>run</code> method here.

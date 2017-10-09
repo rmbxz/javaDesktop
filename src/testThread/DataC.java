@@ -1,4 +1,5 @@
-package scjpThread;
+package testThread; // Generated package name
+
 
 /**
  * Describe class DataC here.
