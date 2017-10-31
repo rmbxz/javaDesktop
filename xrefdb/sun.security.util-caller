@@ -1,0 +1,4 @@
+((("sun.security.util.SecurityConstants" "MODIFY_THREADGROUP_PERMISSION" nil ("RuntimePermission")) . (("java.lang.Thread" "getAllStackTraces" "java.util.Map" nil 1635)))
+(("sun.security.util.SecurityConstants" "GET_STACK_TRACE_PERMISSION" nil ("RuntimePermission")) . (("java.lang.Thread" "getStackTrace" "java.lang.StackTraceElement[]" nil 1572) ("java.lang.Thread" "getAllStackTraces" "java.util.Map" nil 1633)))
+(("sun.security.util.SecurityConstants" "STOP_THREAD_PERMISSION" nil ("RuntimePermission")) . (("java.lang.Thread" "stop" nil ("java.lang.Throwable") 898)))
+)

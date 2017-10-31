@@ -58,7 +58,7 @@ public class CoffeTest3 {
 	for (CoffeSize cs  : CoffeSize.values()) {
 	    System.out.println(cs
 			       +"  "+cs.getOnce()
-			       +" "+cs.getLid()
+			       //			       +" "+cs.getLid()
 			       );
 	}
     }

@@ -1,5 +1,4 @@
-package testThread; // Generated package name
-
+package testThread; 
 
 /**
  * Describe class DataC here.
@@ -24,15 +23,17 @@ public class DataC {
       public synchronized void setData(int d ) {
 	if (state) {
 	    try {
-		wait();
+		System.out.println("a make thread waiting "+ " ==>> "+ Thread.currentThread().getName());
+		wait(); //enter me(as producer) to waiting pool, and release locks  // 2
 	    } catch (InterruptedException  e) {
 		System.out.println("ineterrupted wait in setData");
 	    }
 	}
 	number= d ;
-	System.out.println("set :- "+ number );
-	state=true;
-	notify();
+	System.out.println("set :- "+ number  +" ==>> "+ Thread.currentThread().getName()); // set 1
+	state=true; // so then next loop for i will go to wait() to release locks, i(thread) will wait my self
+	notify();  // if removed, thread producer will not wake up
+	// notify keep locks, so must go to wait to release locks
     }
 
     /**
@@ -43,13 +44,15 @@ public class DataC {
     public synchronized void getData() {
 	if (!state) {
 	    try {
-		wait();
+		System.out.println("make thread waiting"+ " ==>> "+ Thread.currentThread().getName());
+		wait(); //enter me(as consumer) to waiting pool, and release locks
 	    } catch (InterruptedException e) {
 		System.out.println("interrupted wait in getData");
 	    }
 	}
-	System.out.println("Get:- "+number );
-	state=false;
-	notify();
+	System.out.println("Get:- "+number  +" ==>> "+ Thread.currentThread().getName()); // get 0 consumer ,get 1 
+	state=false; // so then next loop for i will go to wait() to release locks, i(thread) will wait my self
+	notify();  // if removed, thread consumer  will not wake up
+	// notify keep locks, so must go to wait() to release locks
     }
 }

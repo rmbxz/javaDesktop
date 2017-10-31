@@ -1,0 +1,3 @@
+(("ch2.Animal" . (("<init>" nil nil) ("m1" nil nil) ("m2" nil nil)))
+("ch2.Dog" . (("<init>" nil nil) ("m1" nil nil) ("m2" nil nil) ("m3" nil nil) ("main" nil ("java.lang.String[]")) ("m4ThatIsIt" nil ("java.lang.String" "int"))))
+)

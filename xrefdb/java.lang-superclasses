@@ -1,0 +1,7 @@
+(("java.lang.Thread$1" . "java.lang.Object")
+("java.lang.Thread$Caches" . "java.lang.Object")
+("java.lang.Thread$State" . "java.lang.Enum")
+("java.lang.Thread$UncaughtExceptionHandler" . "java.lang.Object")
+("java.lang.Thread$WeakClassKey" . "java.lang.ref.WeakReference")
+("java.lang.Thread" . "java.lang.Object")
+)

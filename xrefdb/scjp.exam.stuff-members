@@ -1,0 +1,4 @@
+(("scjp.exam.stuff.Car" . (("<init>" nil nil) ("goSpeed" nil nil) ("go" "java.lang.String" nil) ("age" "int") ("price" "double") ("model" "java.lang.String") ("year" "java.lang.String") ("table" "java.lang.String")))
+("scjp.exam.stuff.SmallTea" . (("<init>" nil nil) ("modifySmallTea" nil nil) ("getSmallAge" "int" nil) ("array" "java.lang.String[][]")))
+("scjp.exam.stuff.Tea" . (("<init>" nil nil) ("main" nil ("java.lang.String[]")) ("getit" nil nil)))
+)

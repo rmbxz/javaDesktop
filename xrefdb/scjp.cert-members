@@ -1,0 +1,3 @@
+(("scjp.cert.Beverage" . (("<init>" nil nil) ("name" nil nil) ("goSpeed" nil nil) ("smallAge" "int")))
+("scjp.cert.TestMyAge" . (("<init>" nil nil) ("main" nil ("java.lang.String[]")) ("Testit" nil nil)))
+)

@@ -13,6 +13,8 @@ package scjpThread;
  */
 public class Thread1  {
 
+    static int y=1;
+    static int z=1;
     /**
      * Creates a new <code>Thread1</code> instance.
      *
@@ -22,24 +24,39 @@ public class Thread1  {
     }
 
     public static void main(String[] args) {
-	Thread thread1 = Thread.currentThread();
-	System.out.println("print thread info "+ thread1);
-	// this is the main thread, first one  thread at java  and shutdown or the last one  thread 
-	thread1.setName("my first thread "); 
-	System.out.println("print thread info "+ thread1);
-	System.out.println("get thread name =" + thread1.getName());
-	Thread thread2 = new Thread( );
-	thread2.setName("thread2");
-	int x=0;
-	for (int index = 0; index < 5; index++) {
-	    try {
-		System.out.println("welcome to thread programming");
-		Thread.sleep(10000); //sleep one second
-		//		int y=1/x;
-	    } catch (InterruptedException  e) {
-		System.out.println("main thread Interrupted ");
-	    }
-	    //	    System.out.println("cant access");
-	}	
+	method1();
+    }
+    
+    /**
+     * Describe <code>method1</code> method here.
+     *
+     */
+    public static void method1() {
+	int x=1;
+	y=2;
+	z=3;
+	System.out.println("x="+ x);
+	method2();
+    }
+    /**
+     * Describe <code>method2</code> method here.
+     *
+     */
+    public static void method2() {
+	int x=2;
+	y=3;
+	z=4;
+	System.out.println("x="+ x);
+	method3();
+    }
+    /**
+     * Describe <code>method2</code> method here.
+     *
+     */
+    public static void method3() {
+	int x=2;
+	y=4;
+	z=5;
+	System.out.println("x="+ x);
     }
 }

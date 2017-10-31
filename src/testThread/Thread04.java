@@ -19,7 +19,7 @@ public class Thread04 implements Runnable {
 	try {
 
 	    for (int index = 0; index < 5; index++) {
-		System.out.println("byeee-"+index);
+		System.out.println("byeee-"+index  +" ==>> "+ Thread.currentThread().getName());
 		Thread.sleep(1000);
 	    }
 	} catch (Exception e) {

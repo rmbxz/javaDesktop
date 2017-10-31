@@ -1,0 +1,4 @@
+((("java.lang.ref.ReferenceQueue" "<init>" nil nil) . (("java.lang.Thread$Caches" "<clinit>" nil nil 1666)))
+(("java.lang.ref.WeakReference" "<init>" nil ("Object" "ReferenceQueue")) . (("java.lang.Thread$WeakClassKey" "<init>" nil ("java.lang.Class" "java.lang.ref.ReferenceQueue") 2018)))
+(("java.lang.ref.ReferenceQueue" "poll" "Reference" nil) . (("java.lang.Thread" "processQueue" nil ("java.lang.ref.ReferenceQueue" "java.util.concurrent.ConcurrentMap") 1998)))
+)

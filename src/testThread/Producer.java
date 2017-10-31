@@ -15,13 +15,12 @@ public class Producer extends Thread {
 
 
     private DataC dataC;
-    private int count=10;
     /**
      * Creates a new <code>Producer</code> instance.
      *
      */
     public Producer(DataC dataC,String name) {
-	super(name);
+	super(name);// new Thread("producer");
 	this.dataC=dataC;
     }
 
@@ -30,10 +29,8 @@ public class Producer extends Thread {
      *
      */
     public final void run() {
-	int i=0;
-	while (count-- >0) {
-	    dataC.setData(i++);
+	for (int index = 0; index < 10; index++) { 
+	    dataC.setData(index);  // 0 , 1 ,2 
 	}
     }
-
 }

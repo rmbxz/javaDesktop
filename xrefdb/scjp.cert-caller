@@ -1,0 +1,5 @@
+((("scjp.cert.Beverage" "go" "String" nil) . (("scjp.cert.Beverage" "name" nil nil 18)))
+(("scjp.cert.TestMyAge" "smallAge" nil ("int")) . (("scjp.cert.TestMyAge" "Testit" nil nil 26)))
+(("scjp.cert.Beverage" "<init>" nil nil) . (("scjp.exam.stuff.Tea" "<init>" nil nil 15) ("scjp.exam.stuff.Tea" "getit" nil nil 27) ("scjp.cert.TestMyAge" "<init>" nil nil 18)))
+(("scjp.cert.Beverage" "goSpeed" nil nil) . (("scjp.exam.stuff.Tea" "getit" nil nil 31)))
+)

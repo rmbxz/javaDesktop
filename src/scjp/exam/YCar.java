@@ -1,6 +1,5 @@
 package scjp.exam;
 
-
 /**
  * Describe class YCar here.
  *
@@ -15,7 +14,6 @@ public class YCar extends Xcar {
     public void getName() {
 	go();
 	Xcar xcar = new Xcar();
-	xcar.go();
+	//	xcar.go();
     }
-
 }

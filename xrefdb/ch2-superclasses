@@ -1,0 +1,3 @@
+(("ch2.Animal" . "java.lang.Object")
+("ch2.Dog" . "ch2.Animal")
+)

@@ -12,14 +12,15 @@ package testThread;
 public class Thread02 {
 
 	public static void main(String[] args) {
-	    Runnable runnable03 = new Thread03();
-	    Runnable runnable04 = new Thread04();
+	    Runnable runnable03 = new Thread03(); // job 1
+	    Runnable runnable04 = new Thread04(); // job 2
 
-	    Thread thread03 = new Thread(runnable03,"thread03");
- 	    Thread thread04 = new Thread(runnable04,"thread04");
+	    Thread thread03 = new Thread(runnable03,"thread03"); // worker ,stack
+ 	    Thread thread04 = new Thread(runnable04,"thread04"); // worker ,stack
+
 	    // Thread thread03 = new Thread(new Thread03());
  	    // Thread thread04 = new Thread(new Thread04());
-
+	    
 	    thread03.start();
 	    thread04.start();
 	}

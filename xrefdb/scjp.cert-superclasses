@@ -1,0 +1,3 @@
+(("scjp.cert.Beverage" . "scjp.exam.stuff.Car")
+("scjp.cert.TestMyAge" . "scjp.cert.Beverage")
+)

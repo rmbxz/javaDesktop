@@ -1,0 +1,5 @@
+((("java.util.concurrent.ConcurrentHashMap" "<init>" nil nil) . (("java.lang.Thread$Caches" "<clinit>" nil nil 1662)))
+(("java.util.concurrent.ConcurrentMap" "remove" "Object" ("Object")) . (("java.lang.Thread" "processQueue" nil ("java.lang.ref.ReferenceQueue" "java.util.concurrent.ConcurrentMap") 1999)))
+(("java.util.concurrent.ConcurrentMap" "putIfAbsent" "Object" ("Object" "Object")) . (("java.lang.Thread" "isCCLOverridden" "boolean" ("java.lang.Class") 1684)))
+(("java.util.concurrent.ConcurrentMap" "get" "Object" ("Object")) . (("java.lang.Thread" "isCCLOverridden" "boolean" ("java.lang.Class") 1681)))
+)

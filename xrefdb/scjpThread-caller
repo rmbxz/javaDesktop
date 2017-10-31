@@ -1,0 +1,6 @@
+((("scjpThread.Thread1" "z" nil ("int")) . (("scjpThread.Thread1" "<clinit>" nil nil 17) ("scjpThread.Thread1" "method1" nil nil 37) ("scjpThread.Thread1" "method2" nil nil 48) ("scjpThread.Thread1" "method3" nil nil 59)))
+(("scjpThread.Thread1" "y" nil ("int")) . (("scjpThread.Thread1" "<clinit>" nil nil 16) ("scjpThread.Thread1" "method1" nil nil 36) ("scjpThread.Thread1" "method2" nil nil 47) ("scjpThread.Thread1" "method3" nil nil 58)))
+(("scjpThread.Thread1" "method3" nil nil) . (("scjpThread.Thread1" "method2" nil nil 50)))
+(("scjpThread.Thread1" "method2" nil nil) . (("scjpThread.Thread1" "method1" nil nil 39)))
+(("scjpThread.Thread1" "method1" nil nil) . (("scjpThread.Thread1" "main" nil ("java.lang.String[]") 27)))
+)

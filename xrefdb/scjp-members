@@ -1,0 +1,2 @@
+(("scjp.Java1" . (("<init>" nil nil) ("main" nil ("java.lang.String[]")) ("main" nil ("int" "java.lang.String[]")) ("name" nil nil) ("getSmallAge" "int" nil) ("_a" "int") ("$b" "int")))
+)

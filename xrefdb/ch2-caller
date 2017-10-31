@@ -1,0 +1,7 @@
+((("ch2.Animal" "m1" nil nil) . (("ch2.Dog" "m4ThatIsIt" nil ("java.lang.String" "int") 80)))
+(("ch2.Dog" "m4ThatIsIt" nil ("String" "int")) . (("ch2.Dog" "main" nil ("java.lang.String[]") 70)))
+(("ch2.Dog" "<init>" nil nil) . (("ch2.Dog" "main" nil ("java.lang.String[]") 53) ("ch2.Dog" "main" nil ("java.lang.String[]") 67)))
+(("ch2.Dog" "m3" nil nil) . (("ch2.Dog" "main" nil ("java.lang.String[]") 56) ("ch2.Dog" "main" nil ("java.lang.String[]") 57)))
+(("ch2.Dog" "m1" nil nil) . (("ch2.Dog" "main" nil ("java.lang.String[]") 55)))
+(("ch2.Animal" "<init>" nil nil) . (("ch2.Dog" "<init>" nil nil 19)))
+)

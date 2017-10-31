@@ -1,0 +1,5 @@
+(("testThread.Consumer" . "java.lang.Thread")
+("testThread.DataC" . "java.lang.Object")
+("testThread.Producer" . "java.lang.Thread")
+("testThread.ProducerConsumer" . "java.lang.Object")
+)

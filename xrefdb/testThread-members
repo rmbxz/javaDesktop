@@ -1,0 +1,5 @@
+(("testThread.Consumer" . (("<init>" nil ("testThread.DataC" "java.lang.String")) ("run" nil nil) ("dataC" "testThread.DataC")))
+("testThread.DataC" . (("<init>" nil nil) ("setData" nil ("int")) ("getData" nil nil) ("number" "int") ("state" "boolean")))
+("testThread.Producer" . (("<init>" nil ("testThread.DataC" "java.lang.String")) ("run" nil nil) ("dataC" "testThread.DataC")))
+("testThread.ProducerConsumer" . (("<init>" nil nil) ("main" nil ("java.lang.String[]"))))
+)

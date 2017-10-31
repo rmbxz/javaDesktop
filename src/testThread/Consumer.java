@@ -13,14 +13,12 @@ package testThread; // Generated package name
 public class Consumer extends Thread {
 
     private DataC dataC;
-    private int count= 10;
-
     /**
      * Creates a new <code>Consumer</code> instance.
      *
      */
     public  Consumer(DataC dataC,String name) {
-	super(name);
+	super(name); //new Thread("consumer");
 	this.dataC=dataC;
     }
 
@@ -30,8 +28,8 @@ public class Consumer extends Thread {
      */
     public final void run() {
 
-	while (count-- >0) {
-	    dataC.getData();
+	for (int index = 0; index < 10; index++) {	
+	    dataC.getData(); // 0 , 1
 	}
     }
 }

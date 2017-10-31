@@ -1,10 +1,14 @@
 package scjp;
 
-import scjp.exam.stuff.Tea;
-import scjp.exam.stuff.SmallTea;
 
- import static java.lang.System.out;
- import static java.lang.Integer.*;
+ import scjp.exam.stuff.SmallTea;
+ import scjp.exam.stuff.Tea;
+
+  import static java.lang.System.out;
+  import static java.lang.Integer.*;
+
+
+
 // import static java.lang.Long.*;
 /**
  * Describe class Java1 here.

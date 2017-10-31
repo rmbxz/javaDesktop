@@ -1,0 +1,3 @@
+((("java.security.AccessController" "doPrivileged" "Object" ("PrivilegedAction")) . (("java.lang.Thread" "auditSubclass" "boolean" ("java.lang.Class") 1696)))
+(("java.security.AccessController" "getContext" "AccessControlContext" nil) . (("java.lang.Thread" "init" nil ("java.lang.ThreadGroup" "java.lang.Runnable" "java.lang.String" "long" "java.security.AccessControlContext") 412)))
+)

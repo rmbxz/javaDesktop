@@ -1,0 +1,4 @@
+(("scjp.exam.Xcar" . (("<init>" nil nil) ("goSpeed" nil nil) ("doIT" "java.lang.String" nil)))
+("scjp.exam.YCar" . (("<init>" nil nil) ("getName" nil nil)))
+("scjp.exam.Zcar" . (("<init>" nil nil)))
+)

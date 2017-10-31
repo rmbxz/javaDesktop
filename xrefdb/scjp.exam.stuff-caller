@@ -1,0 +1,8 @@
+((("scjp.exam.stuff.SmallTea" "<init>" nil nil) . (("scjp.Java1" "<init>" nil nil 18)))
+(("scjp.exam.stuff.Car" "<init>" nil nil) . (("scjp.exam.Xcar" "<init>" nil nil 14) ("scjp.cert.Beverage" "<init>" nil nil 14)))
+(("scjp.exam.stuff.Car" "age" nil ("int")) . (("scjp.exam.stuff.Car" "<init>" nil nil 14)))
+(("scjp.exam.stuff.SmallTea" "smallAge" nil ("int")) . (("scjp.exam.stuff.SmallTea" "modifySmallTea" nil nil 25) ("scjp.exam.stuff.SmallTea" "getSmallAge" "int" nil 31)))
+(("scjp.exam.stuff.Tea" "<init>" nil nil) . (("scjp.exam.stuff.SmallTea" "<init>" nil nil 12) ("scjp.exam.stuff.SmallTea" "modifySmallTea" nil nil 23)))
+(("scjp.exam.stuff.SmallTea" "array" nil ("String[][]")) . (("scjp.exam.stuff.SmallTea" "<init>" nil nil 16)))
+(("scjp.exam.stuff.Tea" "smallAge" nil ("int")) . (("scjp.exam.stuff.Tea" "getit" nil nil 32)))
+)

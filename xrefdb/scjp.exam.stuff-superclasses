@@ -1,0 +1,4 @@
+(("scjp.exam.stuff.Car" . "java.lang.Object")
+("scjp.exam.stuff.SmallTea" . "scjp.exam.stuff.Tea")
+("scjp.exam.stuff.Tea" . "scjp.cert.Beverage")
+)

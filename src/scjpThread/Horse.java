@@ -9,7 +9,7 @@ package scjpThread;
  * @author <a href="mailto:root@localhost.localdomain">root</a>
  * @version 1.0
  */
-public class Horse extends Animal {
+public class Horse  {
 
     /**
      * Creates a new <code>Horse</code> instance.
