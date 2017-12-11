@@ -1,0 +1,585 @@
+
+/home/jdee_workspace/app2/src/scjp/cert/TestMyAge.java,162
+public class TestMyAge 12,188
+    public TestMyAge(TestMyAge.TestMyAge18,307
+    public static void main(TestMyAge.main21,340
+    public void Testit(25,422
+
+/home/jdee_workspace/app2/src/scjp/cert/Beverage.java,181
+public class Beverage 14,223
+   protected  int smallAge;Beverage.smallAge15,259
+    public void name(Beverage.name17,288
+    public final void goSpeed(Beverage.goSpeed25,403
+
+/home/jdee_workspace/app2/src/scjp/Java1.java,275
+ public class Java1 22,357
+    int _a;Java1._a24,413
+    int $b;Java1.$b25,425
+    public static void main(Java1.main28,595
+   public static void main(Java1.main41,910
+    public void name(Java1.name49,1038
+       public int getSmallAge(Java1.getSmallAge63,1296
+
+/home/jdee_workspace/app2/src/scjp/exam/Xcar.java,78
+public class Xcar 14,212
+     public final void goSpeed(Xcar.goSpeed16,247
+
+/home/jdee_workspace/app2/src/scjp/exam/Zcar.java,60
+public class Zcar 12,183
+    public Zcar(Zcar.Zcar18,276
+
+/home/jdee_workspace/app2/src/scjp/exam/YCar.java,71
+public class YCar 12,183
+    public void getName(YCar.getName14,217
+
+/home/jdee_workspace/app2/src/scjp/exam/stuff/CoffeTest2.java,386
+class Coffee 5,86
+    enum CoffeeSize Coffee.CoffeeSize6,101
+    enum CoffeeSize { BIG Coffee.CoffeeSize.BIG6,101
+    enum CoffeeSize { BIG , HUSE Coffee.CoffeeSize.HUSE6,101
+    enum CoffeeSize { BIG , HUSE ,OVER Coffee.CoffeeSize.OVER6,101
+    CoffeeSize coffeeSize;Coffee.coffeeSize8,193
+public class CoffeTest2 11,223
+    public static void main(CoffeTest2.main12,249
+
+/home/jdee_workspace/app2/src/scjp/exam/stuff/CoffeeSizeOk.java,215
+public enum CoffeeSizeOk 4,27
+public enum CoffeeSizeOk  {BIG CoffeeSizeOk.BIG4,27
+public enum CoffeeSizeOk  {BIG , HUGE CoffeeSizeOk.HUGE4,27
+public enum CoffeeSizeOk  {BIG , HUGE ,OVER}CoffeeSizeOk.OVER4,27
+
+/home/jdee_workspace/app2/src/scjp/exam/stuff/Tea2.java,296
+public class Tea2 11,188
+    private   int x;Tea2.x13,245
+    protected int y;Tea2.y14,266
+    public final void goSpeed(Tea2.goSpeed20,361
+    public final void goFirst(Tea2.goFirst31,558
+    public final void goSlow(Tea2.goSlow43,743
+    public final void goFast(Tea2.goFast51,856
+
+/home/jdee_workspace/app2/src/scjp/exam/stuff/CoffeTest1.java,2089
+enum CoffeSize 4,27
+    HUGE(CoffeSize.HUGE5,44
+    HUGE(22), OVER(CoffeSize.OVER5,44
+    HUGE(22), OVER(33), TOO(CoffeSize.TOO5,44
+    HUGE(22), OVER(33), TOO(1,2), TOOO(CoffeSize.TOOO5,44
+    HUGE(22), OVER(33), TOO(1,2), TOOO(3,4), THREE(CoffeSize.THREE5,44
+    HUGE(22), OVER(33), TOO(1,2), TOOO(3,4), THREE(11,22,"MAN"), THREEE(CoffeSize.THREEE5,44
+    HUGE(22), OVER(33), TOO(1,2), TOOO(3,4), THREE(11,22,"MAN"), THREEE(44,55,"WOMAN"), BIG(CoffeSize.BIG5,44
+    private CoffeSize.private7,143
+    private int CoffeSize.int7,143
+    private int once;CoffeSize.once7,143
+    private CoffeSize.private8,168
+    private int CoffeSize.int8,168
+    private int twice;CoffeSize.twice8,168
+    private CoffeSize.private9,191
+    private String CoffeSize.String9,191
+    private String third;CoffeSize.third9,191
+    CoffeSize(CoffeSize.CoffeSize11,218
+    CoffeSize(int CoffeSize.int11,218
+    CoffeSize(int once)CoffeSize.once11,218
+    CoffeSize(CoffeSize.CoffeSize15,269
+    CoffeSize(int CoffeSize.int15,269
+    CoffeSize(int once,CoffeSize.once15,269
+    CoffeSize(int once, int CoffeSize.int15,269
+    CoffeSize(int once, int twice)CoffeSize.twice15,269
+    CoffeSize(CoffeSize.CoffeSize20,349
+    CoffeSize(int CoffeSize.int20,349
+    CoffeSize(int once,CoffeSize.once20,349
+    CoffeSize(int once, int CoffeSize.int20,349
+    CoffeSize(int once, int twice,CoffeSize.twice20,349
+    CoffeSize(int once, int twice, String CoffeSize.String20,349
+    CoffeSize(int once, int twice, String third)CoffeSize.third20,349
+    public CoffeSize.public27,463
+    public int CoffeSize.int27,463
+    public int getOnce(CoffeSize.getOnce27,463
+    public CoffeSize.public32,511
+    public int CoffeSize.int32,511
+    public int getTwice(CoffeSize.getTwice32,511
+    public CoffeSize.public36,560
+    public String CoffeSize.String36,560
+    public String getThird(CoffeSize.getThird36,560
+public class CoffeTest1 47,759
+     CoffeSize size;CoffeTest1.size48,785
+    public static void main(CoffeTest1.main50,807
+
+/home/jdee_workspace/app2/src/scjp/exam/stuff/SmallTea.java,192
+public class SmallTea 12,193
+    String[][] array SmallTea.array13,230
+    public void modifySmallTea(SmallTea.modifySmallTea19,364
+   public int getSmallAge(SmallTea.getSmallAge28,509
+
+/home/jdee_workspace/app2/src/scjp/exam/stuff/Car.java,353
+ public abstract class Car 13,189
+    public final int age=Car.age14,218
+     private  double price;Car.price15,247
+     private String model;Car.model16,275
+     private String year;Car.year17,302
+      private String table Car.table18,328
+      public abstract  void goSpeed(Car.goSpeed22,444
+         protected  String go(Car.go23,483
+
+/home/jdee_workspace/app2/src/scjp/exam/stuff/CoffeTest3.XXXjava,500
+package scjp.exam.stuff;stuff1,0
+enum CoffeSize 4,27
+    BIG(5,44
+    HUGE(6,57
+    OVER(7,71
+    private 14,152
+    private int 14,152
+    private int once;14,152
+    CoffeSize(16,178
+    CoffeSize(int 16,178
+    CoffeSize(int once)16,178
+    public 21,230
+    public int 21,230
+    public int getOnce(21,230
+    public 25,296
+    public String 25,296
+    public String  getLid(25,296
+public class CoffeTest3 37,397
+     CoffeSize size;38,423
+    public static void main(40,445
+
+/home/jdee_workspace/app2/src/scjp/exam/stuff/Callable.java,106
+public  interface Callable 20,269
+	int YEAR Callable.YEAR22,319
+	void goFirst(Callable.goFirst23,337
+
+/home/jdee_workspace/app2/src/scjp/exam/stuff/Tea.java,115
+   public class Tea 15,217
+     public static void main(Tea.main17,257
+     public void getit(Tea.getit26,418
+
+/home/jdee_workspace/app2/src/ch8/Glass4.java,71
+public class Glass4 12,179
+    private T liquid;Glass4.liquid13,266
+
+/home/jdee_workspace/app2/src/ch8/Animal.java,28
+public class Animal 12,179
+
+/home/jdee_workspace/app2/src/ch8/OrangeJuice.java,33
+public class OrangeJuice 12,184
+
+/home/jdee_workspace/app2/src/ch8/Cake.java,60
+public class Cake 12,177
+    public Cake(Cake.Cake18,270
+
+/home/jdee_workspace/app2/src/ch8/Water.java,108
+public class Water 13,179
+    public Water(Water.Water19,293
+    public String taste(Water.taste30,473
+
+/home/jdee_workspace/app2/src/ch8/Bartender.java,358
+public class Bartender 12,182
+    public Bartender(Bartender.Bartender18,285
+    public Bartender.public22,318
+    public <J,W> CockTail mix(Bartender.mix22,318
+    public Bartender.public27,397
+    public   <J,W> void  mix2(Bartender.mix227,397
+    public static Bartender.static31,453
+    public static <J,W> void  mix3(Bartender.mix331,453
+
+/home/jdee_workspace/app2/src/ch8/Guest.java,126
+public class Guest 21,256
+    int x=Guest.x23,278
+    int y=Guest.y24,291
+    public static void main(Guest.main30,421
+
+/home/jdee_workspace/app2/src/ch8/AppleJuice.java,32
+public class AppleJuice 12,183
+
+/home/jdee_workspace/app2/src/ch8/Glass5.java,35
+public class Glass5<Glass512,179
+
+/home/jdee_workspace/app2/src/ch8/MyGeneric01.java,33
+public class MyGeneric01 12,184
+
+/home/jdee_workspace/app2/src/ch8/Juice.java,71
+public class Juice 13,179
+    public String taste(Juice.taste22,370
+
+/home/jdee_workspace/app2/src/ch8/AnimalDoctorGeneric.java,103
+public class AnimalDoctorGeneric 14,216
+  public void addAnimal(AnimalDoctorGeneric.addAnimal16,252
+
+/home/jdee_workspace/app2/src/ch8/Fluid.java,31
+public interface Fluid 12,178
+
+/home/jdee_workspace/app2/src/ch8/Green.java,64
+public class Green 12,178
+    public Green(Green.Green18,273
+
+/home/jdee_workspace/app2/src/ch8/Diesel.java,68
+public class Diesel 12,179
+    public Diesel(Diesel.Diesel18,276
+
+/home/jdee_workspace/app2/src/ch8/Dog.java,25
+public class Dog 12,176
+
+/home/jdee_workspace/app2/src/ch8/Color.java,50
+    public Color(14,207
+    public Color(22,309
+
+/home/jdee_workspace/app2/src/ch8/Blue.java,60
+public class Blue 12,177
+    public Blue(Blue.Blue18,270
+
+/home/jdee_workspace/app2/src/ch8/CockTail.java,76
+public class CockTail 12,181
+    public CockTail(CockTail.CockTail18,282
+
+/home/jdee_workspace/app2/src/ch8/Glass2.java,68
+public class Glass2 12,179
+    public Glass2(Glass2.Glass218,295
+
+/home/jdee_workspace/app2/src/ch8/Red.java,56
+public class Red 12,176
+    public Red(Red.Red18,267
+
+/home/jdee_workspace/app2/src/ch8/Glass6.java,35
+public class Glass6<Glass612,179
+
+/home/jdee_workspace/app2/src/ch8/Glass.java,156
+public class Glass<Glass12,178
+    public T liquid;Glass.liquid13,202
+    public  <U extends Juice>  String getLiquidTaste(Glass.getLiquidTaste15,229
+
+/home/jdee_workspace/app2/src/ch8/Liquid.java,77
+public interface Liquid 12,179
+    public String taste(Liquid.taste14,206
+
+/home/jdee_workspace/app2/src/ch8/Tray.java,102
+public class Tray 15,180
+    public Glass6<?>  a;Tray.a17,201
+    public void add(Tray.add24,297
+
+/home/jdee_workspace/app2/src/desktopApp/app2/control/First.java,75
+public class First 14,236
+    	public static void main(First.main16,258
+
+/home/jdee_workspace/app2/src/desktopApp/app2/model/League.java,703
+public class League 12,197
+    private String name;League.name13,219
+    private String age;League.age14,244
+    private String gender;League.gender15,272
+    public League(League.League17,300
+    public final String getName(League.getName28,507
+    public final void setName(League.setName37,673
+    public final String getAge(League.getAge46,840
+    public final void setAge(League.setAge55,1001
+    public final String getGender(League.getGender64,1170
+    public final void setGender(League.setGender73,1346
+    public final boolean equals(League.equals80,1522
+    public final int hashCode(League.hashCode101,2170
+    public final String toString(League.toString118,2600
+
+/home/jdee_workspace/app2/src/scjpThread/Runnable4.java,178
+public class Runnable4 13,190
+    private int counter=Runnable4.counter14,235
+    public Runnable4(Runnable4.Runnable419,339
+    public final void run(Runnable4.run29,486
+
+/home/jdee_workspace/app2/src/scjpThread/Thread8Deadlock.java,539
+public class Thread8Deadlock 12,168
+    public static Object Lock1 Thread8Deadlock.Lock113,199
+    public static Object Lock2 Thread8Deadlock.Lock214,246
+    public static Object Lock3 Thread8Deadlock.Lock315,293
+    public static void main(Thread8Deadlock.main22,461
+    private static class ThreadDemo1 Thread8Deadlock.ThreadDemo135,694
+	public void run(Thread8Deadlock.ThreadDemo1.run36,748
+    private static class ThreadDemo2 Thread8Deadlock.ThreadDemo263,1275
+	public void run(Thread8Deadlock.ThreadDemo2.run68,1386
+
+/home/jdee_workspace/app2/src/scjpThread/Thread2.java,78
+public class Thread2 12,187
+    public static void main(Thread2.main19,328
+
+/home/jdee_workspace/app2/src/scjpThread/NameRunnable.java,143
+public class NameRunnable 13,193
+    public NameRunnable(NameRunnable.NameRunnable19,322
+    public final void run(NameRunnable.run29,472
+
+/home/jdee_workspace/app2/src/scjpThread/Thread10.java,79
+public class Thread10 9,158
+    public static void main(Thread10.main10,182
+
+/home/jdee_workspace/app2/src/scjpThread/Thread5.java,121
+public class Thread5 12,187
+    public Thread5(Thread5.Thread518,286
+    public static void main(Thread5.main27,434
+
+/home/jdee_workspace/app2/src/scjpThread/Runnable2.java,318
+public class Runnable2 13,190
+    long sleepDuration;Runnable2.sleepDuration15,236
+    Thread thread;Runnable2.thread16,260
+    Runnable2 runnable;Runnable2.runnable17,279
+    int counter=Runnable2.counter18,303
+    public Runnable2(Runnable2.Runnable223,399
+    public final void run(Runnable2.run36,714
+
+/home/jdee_workspace/app2/src/scjpThread/Runnable1.java,294
+public class Runnable1 13,190
+    private  long sleepDuration;Runnable1.sleepDuration15,236
+    public  Thread thread;Runnable1.thread16,269
+    private  int counter Runnable1.counter17,296
+    public Runnable1(Runnable1.Runnable122,402
+    public final void run(Runnable1.run35,742
+
+/home/jdee_workspace/app2/src/scjpThread/Thread6.java,78
+public class Thread6 12,187
+    public static void main(Thread6.main14,211
+
+/home/jdee_workspace/app2/src/scjpThread/TestDog.java,110
+public class TestDog 12,186
+    TestDog i;TestDog.i13,209
+    public static void main(TestDog.main14,224
+
+/home/jdee_workspace/app2/src/scjpThread/Thread3.java,78
+public class Thread3 12,187
+    public static void main(Thread3.main14,211
+
+/home/jdee_workspace/app2/src/scjpThread/Thread13.java,123
+public class Thread13 12,188
+    public Thread13(Thread13.Thread1318,304
+    public final void run(Thread13.run26,405
+
+/home/jdee_workspace/app2/src/scjpThread/DataC.java,237
+public class DataC 13,241
+    private int number;DataC.number15,263
+    private boolean state=DataC.state16,287
+      public synchronized void setData(DataC.setData23,436
+    public synchronized void getData(DataC.getData42,824
+
+/home/jdee_workspace/app2/src/scjpThread/MyThread.java,120
+public class MyThread 12,188
+    public MyThread(MyThread.MyThread18,304
+       public void run(MyThread.run28,542
+
+/home/jdee_workspace/app2/src/scjpThread/DataB.java,199
+public class DataB 12,185
+        private int sum=DataB.sum14,207
+synchronized    public  void printB(DataB.printB22,410
+    synchronized public void printBDeadLock(DataB.printBDeadLock41,855
+
+/home/jdee_workspace/app2/src/scjpThread/MyThread2.java,178
+public class MyThread2 12,189
+    private int counter=MyThread2.counter14,230
+    public MyThread2(MyThread2.MyThread219,334
+    public final void run(MyThread2.run29,523
+
+/home/jdee_workspace/app2/src/scjpThread/Consumer.java,216
+public class Consumer 12,188
+    private DataC dataC;Consumer.dataC14,228
+    private int count=Consumer.count15,253
+    public  Consumer(Consumer.Consumer21,357
+    public final void run(Consumer.run30,515
+
+/home/jdee_workspace/app2/src/scjpThread/Producer.java,215
+public class Producer 12,188
+    private DataC dataC;Producer.dataC15,229
+    private int count=Producer.count16,254
+    public Producer(Producer.Producer21,356
+    public final void run(Producer.run30,512
+
+/home/jdee_workspace/app2/src/scjpThread/Horse.java,103
+public class Horse 12,185
+    public Horse(Horse.Horse18,281
+    private void eat(Horse.eat25,378
+
+/home/jdee_workspace/app2/src/scjpThread/DataA.java,206
+public class DataA 12,185
+        private int sum=DataA.sum14,207
+    synchronized    public  void printA(DataA.printA22,410
+    synchronized    public void printADeadLock(DataA.printADeadLock40,858
+
+/home/jdee_workspace/app2/src/scjpThread/Thread11.java,174
+public class Thread11 12,188
+    public final void run(Thread11.run18,297
+    public final void run(Thread11.run27,510
+    public static void main(Thread11.main37,763
+
+/home/jdee_workspace/app2/src/scjpThread/Thread1.java,356
+public class Thread1 14,189
+    static int y=Thread1.y16,214
+    static int z=Thread1.z17,234
+    public Thread1(Thread1.Thread122,329
+    public static void main(Thread1.main26,360
+    public static void method1(Thread1.method134,501
+    public static void method2(Thread1.method245,679
+    public static void method3(Thread1.method356,857
+
+/home/jdee_workspace/app2/src/scjpThread/Thread7.java,78
+public class Thread7 11,187
+    public static void main(Thread7.main12,210
+
+/home/jdee_workspace/app2/src/scjpThread/Thread4.java,78
+public class Thread4 12,187
+    public static void main(Thread4.main14,211
+
+/home/jdee_workspace/app2/src/scjpThread/Thread12.java,126
+public class Thread12 12,188
+    public Thread12(Thread12.Thread1218,289
+    public static void main(Thread12.main27,442
+
+/home/jdee_workspace/app2/src/scjpThread/Thread9DeadlockSolve.java,515
+public class Thread9DeadlockSolve 4,22
+   public static Object Lock1 Thread9DeadlockSolve.Lock15,58
+   public static Object Lock2 Thread9DeadlockSolve.Lock26,104
+   public static void main(Thread9DeadlockSolve.main8,154
+   private static class ThreadDemo1 Thread9DeadlockSolve.ThreadDemo115,327
+      public void run(Thread9DeadlockSolve.ThreadDemo1.run16,380
+   private static class ThreadDemo2 Thread9DeadlockSolve.ThreadDemo231,835
+      public void run(Thread9DeadlockSolve.ThreadDemo2.run32,888
+
+/home/jdee_workspace/app2/src/scjpThread/Runnable3.java,271
+public class Runnable3 13,190
+    private String name;Runnable3.name15,236
+    private Data data Runnable3.data16,261
+    private Thread thread;Runnable3.thread17,285
+    public Runnable3(Runnable3.Runnable322,389
+    public final void run(Runnable3.run35,643
+
+/home/jdee_workspace/app2/src/scjpThread/Data.java,105
+public class Data 12,184
+    private int sum=Data.sum14,205
+    public  void print(Data.print22,404
+
+/home/jdee_workspace/app2/src/ch2/Animal.java,135
+public class Animal 13,180
+    public Animal(Animal.Animal19,277
+   void  m1(Animal.m126,374
+    public void m2(Animal.m233,506
+
+/home/jdee_workspace/app2/src/ch2/Dog.java,285
+public class Dog 17,181
+    public Dog(Dog.Dog22,286
+    void m1(Dog.m130,381
+    public void m2(Dog.m237,509
+    public void m3(Dog.m344,639
+    public Animal m44(Dog.m4454,820
+    public static void main(Dog.main58,872
+    public void m4ThatIsIt(Dog.m4ThatIsIt85,1429
+
+/home/jdee_workspace/app2/src/testThread/Thread8Deadlock.java,478
+public class Thread8Deadlock 11,193
+    public static Object lock1 Thread8Deadlock.lock112,224
+    public static Object lock2 Thread8Deadlock.lock213,271
+    public static void main(Thread8Deadlock.main21,492
+    private static class ThreadDemo1 Thread8Deadlock.ThreadDemo134,725
+	public void run(Thread8Deadlock.ThreadDemo1.run35,779
+    private static class ThreadDemo2 Thread8Deadlock.ThreadDemo258,1215
+	public void run(Thread8Deadlock.ThreadDemo2.run63,1326
+
+/home/jdee_workspace/app2/src/testThread/Thread06.java,74
+public class Thread06 4,22
+    public final void run(Thread06.run9,135
+
+/home/jdee_workspace/app2/src/testThread/Thread10.java,162
+public class Thread10 3,21
+    ThreadTable table;Thread10.table5,66
+    public Thread10(Thread10.Thread106,89
+    public final void run(Thread10.run14,224
+
+/home/jdee_workspace/app2/src/testThread/Thread09.java,163
+public class Thread09 4,22
+    ThreadTable table;Thread09.table6,67
+    public Thread09(Thread09.Thread097,90
+    public  final void run(Thread09.run14,224
+
+/home/jdee_workspace/app2/src/testThread/Thread04.java,77
+public class Thread04 13,189
+    public final void run(Thread04.run18,302
+
+/home/jdee_workspace/app2/src/testThread/Thread01.java,80
+public class Thread01 13,189
+    public static void main(Thread01.main15,218
+
+/home/jdee_workspace/app2/src/testThread/Thread05.java,80
+public class Thread05 12,188
+    public static void main(Thread05.main14,213
+
+/home/jdee_workspace/app2/src/testThread/DataC.java,238
+public class DataC 13,242
+    private int number;DataC.number15,264
+    private boolean state=DataC.state16,288
+      public synchronized void setData(DataC.setData23,437
+    public synchronized void getData(DataC.getData44,1234
+
+/home/jdee_workspace/app2/src/testThread/Thread08.java,80
+public class Thread08 12,188
+    public static void main(Thread08.main14,213
+
+/home/jdee_workspace/app2/src/testThread/Consumer.java,171
+public class Consumer 13,215
+    private DataC dataC;Consumer.dataC15,255
+    public  Consumer(Consumer.Consumer20,356
+    public final void run(Consumer.run29,539
+
+/home/jdee_workspace/app2/src/testThread/Thread07.java,167
+public class Thread07 4,22
+    private Thread thread;Thread07.thread6,67
+    public Thread07(Thread07.Thread077,94
+    public final void run(Thread07.run14,226
+
+/home/jdee_workspace/app2/src/testThread/Producer.java,170
+public class Producer 14,216
+    private DataC dataC;Producer.dataC17,257
+    public Producer(Producer.Producer22,358
+    public final void run(Producer.run31,540
+
+/home/jdee_workspace/app2/src/testThread/Thread02.java,77
+public class Thread02 12,188
+	public static void main(Thread02.main14,213
+
+/home/jdee_workspace/app2/src/testThread/ProducerConsumer.java,96
+public class ProducerConsumer 12,224
+    public static void main(ProducerConsumer.main13,256
+
+/home/jdee_workspace/app2/src/testThread/ThreadTable.java,104
+public class ThreadTable 12,191
+    public synchronized void printTable(ThreadTable.printTable14,219
+
+/home/jdee_workspace/app2/src/testThread/Thread03.java,78
+public class Thread03 13,189
+    public  final void run(Thread03.run18,302
+
+/home/jdee_workspace/app2/src/ch3/MyException.java,280
+public class MyException 12,184
+private static final long serialVersionUID MyException.serialVersionUID13,228
+    public MyException(MyException.MyException20,406
+    public  MyException(MyException.MyException27,519
+    public void myMessage(MyException.myMessage36,686
+
+/home/jdee_workspace/app2/src/ch3/Example2.java,186
+public class Example2 12,181
+    public static void main(Example2.main19,323
+    static void doStuff(Example2.doStuff35,623
+    static void doMoreStuff(Example2.doMoreStuff46,989
+
+/home/jdee_workspace/app2/src/ch3/Example1.java,180
+public class Example1 12,187
+    public static void main(Example1.main14,212
+    public void getIt(Example1.getIt38,567
+    protected void finalize(Example1.finalize70,1314
+
+/home/jdee_workspace/app2/src/serialize/Cat.java,415
+public class Cat 16,238
+    private int x1=Cat.x118,282
+    private int x2=Cat.x219,308
+    private int x3=Cat.x320,330
+    public Cat(Cat.Cat22,353
+    public final boolean equals(Cat.equals29,464
+    public final int hashCode(Cat.hashCode50,979
+    public final String toString(Cat.toString67,1302
+    public final String toString(Cat.toString75,1457
+    public static  String hi(Cat.hi88,1728
+
+/home/jdee_workspace/app2/src/serialize/SerializeCat.java,381
+public class SerializeCat 18,328
+    Cat cat SerializeCat.cat19,356
+    public static void main(SerializeCat.main21,424
+   public void xxserializeIt(SerializeCat.xxserializeIt27,559
+     public void serializeIt(SerializeCat.serializeIt34,677
+    public void deSerializeIt(SerializeCat.deSerializeIt52,1146
+    public final String toString(SerializeCat.toString71,1665
