@@ -1,5 +1,8 @@
 package ch8;
 
+
+
+
 /**
  * Describe class Tray here.
  *
@@ -12,13 +15,15 @@ package ch8;
 public class Tray {
 
     public Glass6<?>  a;
-    
-    
+
+
     /**
      * Describe <code>add</code> method here.
      *
      */
-    public void add(Glass6<?> juice) {
+    public void add(Glass6<? extends Juice > juice) {
+
     }
 
 }
+

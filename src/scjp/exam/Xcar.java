@@ -11,17 +11,17 @@ import scjp.exam.stuff.Car;
  * @author <a href="mailto:root@localhost.localdomain">root</a>
  * @version 1.0
  */
-public class Xcar extends Car  {
+public class Xcar extends Car   {
 
-    public final void goSpeed() {
-    
-    }
+     public final void goSpeed() {
 
-    public String  doIT() {
-	//	Car car = new Car();
-	//	car.go();
-	return go();
-    }
+     }
+
+    // public String  doIT() {
+    // 	//	Car car = new Car();
+    // 	//	car.go();
+    // 	return go();
+    // }
 
 
 }

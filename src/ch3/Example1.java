@@ -36,7 +36,6 @@ public class Example1 {
      *
      */
     public void getIt() {
-
 	int sum=0;
 	int[][] a = {  {0,1,2},{3,4},{5,6,7} };
 	for (int[] x : a)
@@ -69,7 +68,8 @@ public class Example1 {
      * dont overrid finalize;
      */
     protected void finalize() {  // no gurantee to be run 
-    	System.out.println("finalize is called Mr. Ahmed Ali");
+    
+	System.out.println("finalize is called Mr. Ahmed Ali");
     }
 }
 

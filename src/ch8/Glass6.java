@@ -13,5 +13,5 @@ public class Glass6<T> {
 
   // public void add(Glass6<T> juice) {
   // }
-    
+
 }

@@ -28,8 +28,8 @@ public class Bartender {
 
   }
 
-    public  static <J,W> void  mix3(J juice, W water) {
-
+    public static <J,W> void  mix3(J juice, W water) {
+	
   }
 
 

@@ -33,6 +33,7 @@ public class Example2 {
      *
      */
     static void doStuff(int x) throws MyException{
+
 	doMoreStuff(x);
     }
     /**

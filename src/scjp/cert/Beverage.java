@@ -23,7 +23,7 @@ public class Beverage extends Car {
      *
      */
     public final void goSpeed() {
-
+	
     }
 
 

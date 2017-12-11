@@ -1,5 +1,14 @@
 package ch8;
 
+
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+
+
+
+
 /**
  * Describe class Guest here.
  *
@@ -11,7 +20,14 @@ package ch8;
  */
 public class Guest {
 
-	public static void main(String[] args) {
+    int x=1;
+    int y=2;
+    /**
+     * Describe <code>main</code> method here.
+     *
+     * @param args a <code>String</code> value
+     */
+    public static void main(String[] args) {
 	    Juice juice = new Juice();
 	    Glass<Juice> glass = new Glass<Juice>();
  	    
@@ -58,7 +74,33 @@ public class Guest {
 
 	    Tray tray = new Tray();
 	    tray.add(glass6);
+	    //	    tray.add(glass8); // no
+	    OrangeJuice orangeJuice = new OrangeJuice();
+	    Glass6<OrangeJuice> glass9 = new Glass6<OrangeJuice>();
+	    tray.add(glass9);
 
 
+	    List<Dog> dogs = new ArrayList<Dog>();
+	    dogs.add(new Dog());
+	    dogs.add(new Dog());
+	    dogs.add(new Dog());
+	    AnimalDoctorGeneric	 doc = new AnimalDoctorGeneric();
+   	    doc.addAnimal(dogs);
+
+	    String  x="0123456789";
+	    System.out.println(x.substring(4,6));
+
+	    StringBuffer   sb = new StringBuffer("0123456789");
+	    sb.reverse();
+	    System.out.println(sb);
+
+	    String[] files = new String[10];
+	    File search =new File(".");
+	    files = search.list();
+	    System.out.println(files);
+
+	    for (String st : files) {
+	    	System.out.println("found "+st);
+	    }
 	}
 }
